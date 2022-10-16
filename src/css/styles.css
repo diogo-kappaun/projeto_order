@@ -1,0 +1,115 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #D6E1fF, #d6e1ffc2);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.card {
+  width: 450px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px 10px hsla(245, 75%, 52%, 0.027);
+}
+
+.card .img img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card .content h1 {
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.card .content p {
+  margin: 20px 50px 20px 50px;
+  color: hsl(224, 23%, 55%);
+  
+}
+
+.card .content .plano {
+  background-color: hsl(225, 100%, 98%);
+  width: 360px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 25px;
+  
+}
+
+.card .content .plano p {
+  margin: 0;
+  color: #000000;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.card .content .plano .diff{
+  margin: 0;
+  color: hsl(224, 23%, 55%);
+  font-weight: 300;
+}
+
+.card .content .plano .plano-info {
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card .content .plano .change {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card .content .plano .change:hover {
+  text-decoration: none;
+  color: hsl(244, 84%, 69%);
+}
+
+.card .content .btn-proceed {
+  width: 360px;
+  height: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 30px;
+  box-shadow: 0px 12px 18px 0px hsla(245, 75%, 52%, 0.219);
+  cursor: pointer;
+}
+
+.card .content .btn-proceed:hover {
+  background-color: hsl(244, 84%, 69%);
+}
+
+.card .content .cancel {
+  font-weight: 700;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.card .content .cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
